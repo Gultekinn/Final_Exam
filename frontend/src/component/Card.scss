@@ -1,0 +1,67 @@
+.common{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 54px ;
+    .card{ 
+     #btn1{
+    margin-top: 4px;
+}
+        text-align: center;
+        &__img{
+            background-color: rgb(255, 255, 255);
+           img{
+            border-top-left-radius: 17px;
+            border-top-right-radius: 17px;
+            padding: 20px;
+           } 
+        }
+      
+        width: 350px;
+        height: 480px;
+      background-color:#f9f9ff ;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        #btnnn{
+            background-color: white;
+            width: 130px;
+            height: 40px;
+            border: none;
+            margin-left: 17px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        #btnnn:hover{
+            background:linear-gradient(0deg, #828fff 0%, #d496ff 100%); 
+            border: 1px solid rgb(205, 135, 252);
+            color: aliceblue;
+            
+            
+        }
+       
+
+    }
+    
+}
+
+#input{
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1px solid purple;
+height:30px ;
+}
+#button{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background:linear-gradient(0deg, #828fff 0%, #d496ff 100%); 
+border: none;
+color: aliceblue;
+font-weight: 700;
+}
+#button:hover{
+    background: #f9f9ff;
+    border: 1px solid violet;
+    color: blueviolet;
+}
