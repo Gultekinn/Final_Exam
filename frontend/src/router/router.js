@@ -4,23 +4,27 @@ import Home from "../pages/Home/Home";
 import Wishlist from "../pages/Wishlist/Wishlist";
 import SiteRoot from "../SiteRoot/SiteRoot";
 
-export const ROUTES = [{
+export const ROUTES = [
+  {
     path: "/",
     element: <SiteRoot />,
-    children: [{
-        path: '',
-        element: <Home />
-    },
-    {
+    children: [
+      {
+        path: "",
+        element: <Home />,
+      },
+      {
         path: "add",
-        element: <Add />
-    },
-    {
+        element: <Add />,
+      },
+      {
         path: "wishlist",
-        element: <Wishlist />
-    },
-    {
+        element: <Wishlist />,
+      },
+      {
         path: "/:id",
-        element: <Detail />
-    }]
-}]
+        element: <Detail />,
+      },
+    ],
+  },
+];
