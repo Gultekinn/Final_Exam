@@ -1,6 +1,5 @@
 # Robotics 
 - **Frontend:** 
-  - Tam Responsive Dizayn
   - **Axtarış**: Məhsulları başlıqlarına görə axtara bilərsiniz.
   - **Qiymətə görə sıralama**: Məhsulları qiymətə görə sıralaya bilərsiniz.
   - **Məhsul Detalları**: Hər məhsulun detal səhifəsinə baxa bilərsiniz.
